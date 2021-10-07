@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.second_line div{
+    width: 50%; 
+}
+.third_line div{
+    width: 33%;
+}
+.second_line, .third_line{
+    overflow: auto;
+}
+.a,.b,.c,.d,.e,.f{
+    height: 33vh;
+}
+.a{
+    background-color: aqua;
+}
+.b{
+    background-color: brown;
+    float: left;
+}
+.c{
+    background-color: blueviolet;
+    float: right;
+}
+.d{
+    background-color: chartreuse;
+    float: left;
+}
+.e{
+    background-color: cornflowerblue;
+    float: right;
+    width: 34% !important;
+}
+.f{
+    background-color: crimson;
+    float: left;
+}
